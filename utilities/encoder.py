@@ -33,4 +33,4 @@ def encode_data(audio_file_path: str, output_file_name: str, message: str) -> st
     return print("Message successfully encoded to: " + output_file_name)
 
 
-encode_data("data/audio.wav", "encoded_audio.wav", "Hello")
+encode_data("/Users/jerrybuaba/Desktop/kitchen/byte/data/audio.wav", "encoded_audio.wav", "Hello")
