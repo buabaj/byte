@@ -5,10 +5,10 @@ from scipy.io.wavfile import write
 
 
 freq_carrier = 2000
-freq_bitrate = 100
+freq_bitrate = 50
 signal_amplitude = 1
 sampling_freq = 10000
-freq_deviation = 1000
+freq_deviation = 500
 
 
 def non_return_to_zero(data):
@@ -33,7 +33,8 @@ def encode_data(message):
     data = ' '.join(format(ord(i) if isinstance(i, str) else i, 'b')
                     for i in message)
     data = non_return_to_zero(data)
-    data = "0000000011111111" + data + "0000000011111111"
+    data = "000000000111111111110101010101010101010101010101010" + \
+        data + "1010101010101010101011111111111"
     return data
 
 
