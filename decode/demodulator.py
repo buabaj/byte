@@ -1,8 +1,6 @@
-import time
 import scipy.signal as signal
 import numpy as np
 import sounddevice as sd
-import scipy.signal.signaltools as sigtool
 from scipy.io.wavfile import write
 from scipy.io import wavfile
 
