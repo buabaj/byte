@@ -46,4 +46,4 @@ python3 demodulator.py
 
 ### Motivation
 
-- Mobile app proof of concept by Nigerian app developer, [Chiziaruhoma](https://twitter.com/chiziaruhoma/status/1329508952007208962?s=61&t=dPHMD-cyrsD_JnQRor2-Vw)
+- I endeavored to learn about this approach of data transmission after seeing the mobile app proof of concept by Nigerian app developer, [Chiziaruhoma](https://twitter.com/chiziaruhoma/status/1329508952007208962?s=61&t=dPHMD-cyrsD_JnQRor2-Vw). I was guided by the many available open source projects on github.
