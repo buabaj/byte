@@ -1,6 +1,6 @@
 # byte
 
-Proof of concept for Text data transmission over sound modulator-demodulator model. 
+Data transmission over sound modulator-demodulator model. 
 
 This project basically takes the input from the user, encodes it into binary and then modulates it into sound. The sound is then transmitted wirelessly through the speakers of the device. The transmitted sound is then received and recorded by the microphone of the demodulation device. The recorded sound is then demodulated and decoded to get the original message.
 
