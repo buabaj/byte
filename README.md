@@ -46,4 +46,4 @@ python3 demodulator.py
 
 ### Motivation
 
-- Mobile app proof of concept by Nigerian app developer, Chiziaruhoma [Echo](https://twitter.com/chiziaruhoma/status/1329508952007208962?s=61&t=dPHMD-cyrsD_JnQRor2-Vw)
+- Mobile app proof of concept by Nigerian app developer, [Chiziaruhoma](https://twitter.com/chiziaruhoma/status/1329508952007208962?s=61&t=dPHMD-cyrsD_JnQRor2-Vw)
