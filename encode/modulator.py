@@ -15,14 +15,21 @@ def non_return_to_zero(data):
     '''
     converts binary to non-return-to-zero
     '''
-    data = ""
+    Data = ""
     prev = 1
     while (len(data)):
         curr = data[:1]
         data = data[1:]
         if curr == "1":
             prev = (prev + 1) % 2
-        data += str(prev)
+        Data += str(prev)
+    return Data
+
+#making sure all binary vlues has a bit size of seven
+def sevenbits(data):
+    if len(data) < 7:
+        for i in range(7-len(data)):
+            data = '0' + data
     return data
 
 
@@ -30,11 +37,11 @@ def encode_data(message):
     '''
     converts characters to binary
     '''
-    data = ' '.join(format(ord(i) if isinstance(i, str) else i, 'b')
+    data = ' '.join(sevenbits(format(ord(i) if isinstance(i, str) else i, 'b'))
                     for i in message)
     data = non_return_to_zero(data)
-    data = "000000000111111111110101010101010101010101010101010" + \
-        data + "1010101010101010101011111111111"
+    data = "1111111111111010101010101010101010" + \
+        data + "10101010101010101010111111"
     return data
 
 
